@@ -1,0 +1,33 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+p1,
+p2{
+    margin-right: 8px;
+}
+
+.proportion{
+    display: flex;
+    justify-content: center;
+}
+
+.last_score{
+    display: flex;
+    justify-content: center;
+}
+
+.send_scr{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
