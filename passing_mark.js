@@ -12,4 +12,4 @@ function calculate(){
     scr = Math.ceil(scr);
 
     document.getElementById('result').innerText = '次は' + scr + '点取りましょう';
-}
+}//acbed//
