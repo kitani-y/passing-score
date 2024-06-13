@@ -19,24 +19,26 @@
     <div class="content">
         <div class="proportion">
             <p1>
-            試験の割合  
+            試験の割合[%]  
             </p1>
-            <input type="text" placeholder="試験の割合">
+            <input type="text" placeholder="試験の割合[%]" id="textbox1">
             
         </div>
         
         <div class="last_score">
             <p2>
-            前回の試験の点数  
+            前回の最終成績  
             </p2>
-            <input type="text" placeholder="前回の点数">
-            <button class="send_scr" type="submit" id="send_btn">
-                send
+            <input type="text" placeholder="前回の成績" id="textbox2">
+            <button class="send_scr" type="submit" id="send_btn" onclick="calculate()">
+                計算
             </button>
         </div>
+
+        <div id="result"></div>
     </div>
 
-    
+    <script src="passing_mark.js"></script>
     
 </body>
 </html>
