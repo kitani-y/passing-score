@@ -11,5 +11,11 @@ function calculate(){
 
     scr = Math.ceil(scr);
 
-    document.getElementById('result').innerText = '次は' + scr + '点取りましょう';
+    if (scr > 0) {
+        document.getElementById('result').innerText = '次は' + scr + '点取ったっていい';
+    }
+    else{
+        document.getElementById('result').innerText = '試験を受けなくたっていい';
+    }
+    
 }//acbed//
